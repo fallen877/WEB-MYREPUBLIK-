@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRepublic Internet - Penawaran Terbaik oleh [NAMA ANDA]</title>
+    <meta name="description" content="Dapatkan internet super cepat MyRepublic. JET20, VALUE, dan FAST dengan harga terbaik. Hubungi saya untuk pemasangan cepat!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">MyRepublic</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#paket">Paket</a>
+                <a href="#keuntungan">Keuntungan</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Internet Cepat & Stabil untuk Rumah dan Bisnis Anda</h1>
+                <p>Nikmati pengalaman internet tanpa batas dengan paket MyRepublic. Dapatkan penawaran spesial dan pemasangan cepat melalui saya!</p>
+                <a href="#paket" class="btn btn-primary">Lihat Paket</a>
+            </div>
+        </section>
+
+        <section id="paket" class="packages">
+            <div class="container">
+                <h2>Pilih Paket MyRepublic Terbaik Untuk Anda</h2>
+                <p class="section-desc">*Harga dan kecepatan dapat berubah sewaktu-waktu. Hubungi saya untuk info terkini.</p>
+                
+                <div class="package-grid">
+                    <!-- PAKET 1: JET20 -->
+                    <div class="package-card">
+                        <h3>Internet Rumah</h3>
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">205.000</span>
+                            <span class="period">/bln</span>
+                        </div>
+                        <ul class="features">
+                            <li>Kecepatan hingga 20 Mbps</li>
+                            <li>Unlimited Quota</li>
+                            <li>Free Modem & Installasi</li>
+                            <li>TV Kabel Basic (Optional)</li>
+                        </ul>
+                        <a href="https://wa.me/628989210446?text=Halo%20Kak,%20saya%20tertarik%20dengan%20paket%20Internet%20Rumah." class="btn btn-secondary">Pilih Paket</a>
+                    </div>
+
+                    <!-- PAKET 2: VALUE LITE 30 -->
+                    <div class="package-card featured">
+                        <span class="featured-badge">Paling Laris</span>
+                        <h3>Gamer Pro</h3>
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">233.000</span>
+                            <span class="period">/bln</span>
+                        </div>
+                        <ul class="features">
+                            <li>Kecepatan hingga 30 Mbps</li>
+                            <li>Latency Rendah (Ping Stabil)</li>
+                            <li>Unlimited Quota</li>
+                            <li>Free Modem Gaming & Installasi</li>
+                            <li>Bonus 1 Bulan</li>
+                        </ul>
+                        <a href="https://wa.me/6288989210446?text=Halo%20Kak,%20saya%20tertarik%20dengan%20paket%20Gamer%20Pro." class="btn btn-primary">Pilih Paket</a>
+                    </div>
+
+                    <!-- PAKET 3: FAST  -->
+                    <div class="package-card">
+                        <h3>SOHO / Bisnis</h3>
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">277.000</span>
+                            <span class="period">/bln</span>
+                        </div>
+                        <ul class="features">
+                            <li>Kecepatan hingga 100Mbps</li>
+                            <li>IP Static (Bisa Request)</li>
+                            <li>Unlimited Quota</li>
+                            <li>Dedicated Support</li>
+                            <li>Free Modem Business & Installasi</li>
+                        </ul>
+                        <a href="https://wa.me/628989210446?text=Halo%20Kak,%20saya%20tertarik%20dengan%20paket%20SOHO/Bisnis." class="btn btn-secondary">Pilih Paket</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="keuntungan" class="benefits">
+            <div class="container">
+                <h2>Kenapa Harus Pasang Melalui Saya?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h3>🚀 Pemasangan Cepat</h3>
+                        <p>Saya akan bantu prosesnya agar pemasangan di rumah/kantor Anda bisa jadi lebih cepat dari estimasi normal.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>🎁 Bonus Spesial</h3>
+                        <p>Dapatkan bonus tambahan dari saya, seperti ekstensi kabel atau bantuan setting perangkat secara gratis.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>🤝 Support Pribadi</h3>
+                        <p>Butuh bantuan? Langsung hubungi saya. Saya siap membantu jika ada kendala dengan koneksi Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="contact">
+            <div class="container">
+                <h2>Siap untuk Berlangganan?</h2>
+                <p>Isi form di bawah ini, saya akan segera menghubungi Anda untuk proses selanjutnya. Atau, klik tombol WhatsApp untuk langsung terhubung!</p>
+                
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <input type="text" name="name" placeholder="Nama Lengkap Anda" required>
+                    <input type="tel" name="whatsapp" placeholder="Nomor WhatsApp Aktif" required>
+                    <input type="text" name="address" placeholder="Alamat Lengkap (untuk cek ketersediaan)" required>
+                    <button type="submit" class="btn btn-primary">Kirim Permintaan</button>
+                </form>
+
+                <div class="whatsapp-direct">
+                    <p>atau</p>
+                    <a href="https://wa.me/628989210446?text=Halo%20Kak,%20saya%20mau%20tanya-tanya%20tentang%20paket%20MyRepublic." class="btn btn-whatsapp">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"> Chat via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Penawaran MyRepublic oleh [FALLEN]. Semua hak dilindungi.</p>
+            <p>Website ini dibuat untuk memudahkan Anda mendapatkan layanan internet terbaik.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
