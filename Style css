@@ -366,6 +366,47 @@ footer p {
     font-size: 0.9rem;
 }
 
+/* SECTION VIBE BARU */
+.vibe {
+    background-color: #f8faff;
+    padding: 60px 0;
+}
+
+.vibe .vibe-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.vibe-text h2 {
+    text-align: left;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.vibe-text p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.vibe-image img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* PENYESUAIAN GRID PAKET */
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Diubah agar lebih fleksibel */
+    gap: 25px; /* Dikurangi sedikit agar muat */
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
     .hero .container, .promo .promo-content, .contact-wrapper {
